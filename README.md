@@ -1,33 +1,11 @@
-# CSC415-Assignment2-BufferAndStruct
+# BufferAndStruct
 
-**Assignment 2 – Buffering and Structures**
+**Buffering and Structures**
 
-Welcome to your second homework assignment.  
+Gave me experience using structures, pointers, character strings, enumerated types, bitmap fields, and buffering data into blocks. 
 
-Let me remind you of the expectations.  Code should be neat, well documented.  Variables should have meaningful names and be in a consistent format (I do not care if you use camelCase or under_scores in variables but be consistent.  Maximum line length in your code is 100 characters.  In addition, each file should have a standard header as defined below.
 
-```
-/**************************************************************
-* Class:  CSC-415-0# Summer 2021
-* Name:
-* Student ID:
-* GitHub UserID:
-* Project: Assignment 2 – Stucture in Memory and Buffering
-*
-* File: <name of this file>
-*
-* Description:
-*
-**************************************************************/
-```
-
-This is an INDIVIDUAL assignment.  You can (and should) work in groups to research how to do the assignment, but each person should code their own version and make their own submission.
-
-This assignment will give you experience using structures, pointers, character strings, enumerated types, bitmap fields, and buffering data into blocks.  The files assignment2.h and assignment2.o are required for this assignment.
-
-**Step one** - read the assignment carefully and fully.  Do each step and don't read more into it then is there.
-
-**Step two** of this assignment is to review the provided header file assignmet2.h.  You will see a large number of #define statments the represent different computer lanaguages. Then there is a stucture called personalInfo.  This is the structure you will allocate and populate.  Next there is a #define of BLOCK_SIZE set to 256 this is going to be your buffer size to transform byte data into block data.  Finally there are the prototypes for 4 functions that you will need and are described in the steps below.
+**Step two**  You will see a large number of #define statments the represent different computer lanaguages. Then there is a stucture called personalInfo.  This is the structure you will allocate and populate.  Next there is a #define of BLOCK_SIZE set to 256 this is going to be your buffer size to transform byte data into block data.  Finally there are the prototypes for 4 functions that you will need and are described in the steps below.
 
 **Step three** is to remember some of the rules.  Name your c file according to our standard of `lastname_firstname_HW1_main.c`, edit the Makefile to enter your FIRST and LAST name (this Makefile is a little different then the first one - do not change anything other than the variables FIRSTNAME and LASTNAME).  Make sure to comment your code, have the standard header.  Remember that for every malloc, there must also be a corresponding free.  Use printf's to debug your program.  In keeping code neat and readable, lines in your program (including commments) should be kept to about 80 characters long but never more than 100 characters. 
 
@@ -48,22 +26,6 @@ Do a writeup in PDF format that includes a description of what you did and the c
 You should submit your source code file(s) and Makefile, along with a writeup in PDF in GitHub, and the PDF also in iLearn.
 
 Your main program filenames should be `<lastname>_<firstname>HW<#>_<optional>.<proper extension>`
-
-
-**Rubric**
-
-| Grade Item                    | Grade Points                                  |
-|:------------------------------|----------------------------------------------:|
-| Standard Header               |   2                                           |
-| Command Arguments             |   5                                           |
-| Proper use of malloc and free |  10                                           |
-| Proper population of personalInfo           |  10                             |
-| Proper buffering              |  20                                           |
-| Proper use of KNOWLEDGE #defines  |   5                                           |
-| Correct Output                |   5                                           |
-| Code Comments                 |   5                                           |
-| Writeup                       |   8 (Description, Compilation, Sample Output) |
-| Writeup analysis              |  10                                           |
 
 
 ## Sample Output:
